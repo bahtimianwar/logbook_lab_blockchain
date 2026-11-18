@@ -24,22 +24,17 @@ const List<Alat> daftarAlat = [
   // Mikrokontroler
   Alat('Arduino UNO', 'Mikrokontroler', Icons.developer_board),
   Alat('Arduino UNO (Unit 2)', 'Mikrokontroler', Icons.developer_board),
-  Alat('Arduino Mega 2560', 'Mikrokontroler', Icons.developer_board),
   Alat('Arduino Nano', 'Mikrokontroler', Icons.memory),
   Alat('ESP32 DevKit', 'Mikrokontroler', Icons.memory),
   Alat('ESP8266 NodeMCU', 'Mikrokontroler', Icons.memory),
   Alat('Raspberry Pi 4', 'Mikrokontroler', Icons.developer_board),
-  Alat('Raspberry Pi Pico', 'Mikrokontroler', Icons.memory),
-  Alat('STM32 Nucleo', 'Mikrokontroler', Icons.developer_board),
   // Sensor
   Alat('Sensor DHT11', 'Sensor', Icons.thermostat),
   Alat('Sensor DHT22', 'Sensor', Icons.thermostat),
   Alat('Sensor Ultrasonik HC-SR04', 'Sensor', Icons.sensors),
-  Alat('Sensor PIR HC-SR501', 'Sensor', Icons.sensors),
   Alat('Sensor LDR', 'Sensor', Icons.light_mode),
   Alat('Sensor Gas MQ-2', 'Sensor', Icons.cloud),
   Alat('Sensor Soil Moisture', 'Sensor', Icons.water_drop),
-  Alat('Sensor MPU6050', 'Sensor', Icons.graphic_eq),
   // Aktuator dan display
   Alat('Servo SG90', 'Aktuator & Display', Icons.settings),
   Alat(
@@ -47,27 +42,20 @@ const List<Alat> daftarAlat = [
     'Aktuator & Display',
     Icons.precision_manufacturing,
   ),
-  Alat('Stepper Motor 28BYJ-48', 'Aktuator & Display', Icons.settings),
   Alat(
     'Modul Relay 4 Channel',
     'Aktuator & Display',
     Icons.electrical_services,
   ),
-  Alat('Buzzer Aktif', 'Aktuator & Display', Icons.volume_up),
+  Alat('Buzzer', 'Aktuator & Display', Icons.volume_up),
   Alat('LCD 16x2 I2C', 'Aktuator & Display', Icons.monitor),
-  Alat('OLED 0.96 inch', 'Aktuator & Display', Icons.monitor),
   // Komunikasi
   Alat('Modul Bluetooth HC-05', 'Komunikasi', Icons.bluetooth),
   Alat('Modul LoRa SX1278', 'Komunikasi', Icons.cell_tower),
   Alat('Modul RFID RC522', 'Komunikasi', Icons.nfc),
-  Alat('Modul GPS NEO-6M', 'Komunikasi', Icons.location_on),
-  Alat('Modul GSM SIM800L', 'Komunikasi', Icons.sim_card),
-  Alat('ESP32-CAM', 'Komunikasi', Icons.camera_alt),
   // Alat ukur
   Alat('Multimeter Digital', 'Alat Ukur', Icons.speed),
-  Alat('Osiloskop Digital', 'Alat Ukur', Icons.show_chart),
   Alat('Power Supply DC', 'Alat Ukur', Icons.bolt),
-  Alat('Logic Analyzer', 'Alat Ukur', Icons.query_stats),
   // Aksesori
   Alat('Breadboard', 'Aksesori', Icons.grid_on),
   Alat('Kabel Jumper Set', 'Aksesori', Icons.cable),
